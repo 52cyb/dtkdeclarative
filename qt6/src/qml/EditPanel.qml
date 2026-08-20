@@ -39,7 +39,7 @@ Rectangle {
         sourceComponent: AlertToolTip {
             target: control
             timeout: alertDuration
-            visible: showAlert
+            shown: showAlert
             text: alertText
         }
     }
